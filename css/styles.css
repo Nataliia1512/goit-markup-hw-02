@@ -94,25 +94,29 @@ body {
 /*button*/
 
 .button {
+    font-family: inherit;
     color: var(--hero-color);
     background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
     text-align: center;
+    cursor: pointer;
     letter-spacing: 0.06em;
 
 }
 .button:hover,
 .button:focus {
-color: var(--accent-color);
+background-color: var(--accent-color);
 }
 
 /*button-portfolio*/
 .button-primary {
+ font-family: inherit;
   color: var(--title-text-color);
   background-color: var(--secondary-shade-color);
   font-size: 16px;
+  cursor: pointer;
   line-height: 1.6;
 }
 
